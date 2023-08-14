@@ -34,9 +34,9 @@ window.addEventListener( 'DOMContentLoaded', () => {
             author.value = '';
             year.value = '';
 
-            l.setItem(title.value);
-            l.setItem(author.value);
-            l.setItem(year.value);
+            ls.setItem(title.value);
+            ls.setItem(author.value);
+            ls.setItem(year.value);
 
         }
     })
