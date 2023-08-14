@@ -8,9 +8,8 @@ window.addEventListener( 'DOMContentLoaded', () => {
 
     btn.addEventListener('click', (event) => {
         event.preventDefault()
-        // Basic validation
         if (title.value == '' && author.value == '' && year.value == ''){
-            alert('Maydonlarni toldiring');
+            alert("Maydonlarni to'ldiring");
         }else{
             const ls = localStorage;
             const newRow = document.createElement('tr')
