@@ -8,7 +8,7 @@ window.addEventListener( 'DOMContentLoaded', () => {
 
     btn.addEventListener('click', (event) => {
         event.preventDefault()
-        if (title.value == '' && author.value == '' && year.value == ''){
+        if (title.value === '' && author.value === '' && year.value === ''){
             alert("Maydonlarni to'ldiring");
         }else{
             const ls = localStorage;
