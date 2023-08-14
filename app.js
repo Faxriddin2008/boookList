@@ -12,7 +12,7 @@ window.addEventListener( 'DOMContentLoaded', () => {
         if (title.value == '' && author.value == '' && year.value == ''){
             alert('Maydonlarni toldiring');
         }else{
-            const l = localStorage;
+            const ls = localStorage;
             const newRow = document.createElement('tr')
             
             const newTitle = document.createElement('th')
